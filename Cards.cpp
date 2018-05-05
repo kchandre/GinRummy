@@ -13,6 +13,7 @@ void Cards::InitializeDeck(){
 			Rank CardFace = Rank(r);
 			
 			//TODO changable structure
+			//switch statement for face
 			switch (CardFace){
 			
 			case(Two):
