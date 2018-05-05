@@ -22,7 +22,7 @@ int Computer::PickOfDeck(const Cards& deck) const
 		i++;
 	}
 
-	return PickFromDeck;   //AI proceeds to get a card from the top of the deck only if none of the other terms were met
+	return PickFromDeck;   //The AI proceeds to get a card from the top of the deck only if none of the other terms were met
 }
 
 int Computer::CardNeedToDiscard () const
